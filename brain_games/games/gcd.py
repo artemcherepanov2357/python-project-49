@@ -11,7 +11,6 @@ def get_gcd(num1, num2):
 
 
 def generate_round():
-
     num1 = random.randint(1, 10)
     num2 = random.randint(1, 10)
     question = f"{num1} {num2}"

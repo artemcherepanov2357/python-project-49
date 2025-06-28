@@ -1,3 +1,3 @@
-from brain_games.scripts.brain_gcd import main
+from brain_games.scripts.brain_progression import main
 
 main()
