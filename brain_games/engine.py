@@ -1,7 +1,4 @@
-"""Common engine"""
-
 import prompt
-
 
 ROUNDS_COUNT = 3
 
@@ -15,7 +12,8 @@ def run_game(game_module, name):
 
         if answer != correct_answer:
             print(
-                f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'."
+                f"'{answer}' is wrong answer ;(. "
+                f"Correct answer was '{correct_answer}'."
             )
             print(f"Let's try again, {name}!")
             return
