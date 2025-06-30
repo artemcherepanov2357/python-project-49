@@ -1,3 +1,3 @@
-from brain_games.scripts.brain_progression import main
+from brain_games.scripts.brain_prime import main
 
 main()
