@@ -17,6 +17,6 @@ def generate_round():
             - str: The correct answer ("yes" if the number is even,
                    "no" otherwise).
     """
-    number = random.randint(1, 100)
+    number = random.randint(1, 100)  # NOSONAR
     correct_answer = "yes" if is_even(number) else "no"
     return str(number), correct_answer

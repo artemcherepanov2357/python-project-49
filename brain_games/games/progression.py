@@ -8,10 +8,10 @@ def generate_progression(start, step, length):
 
 
 def generate_round():
-    start = random.randint(1, 20)
-    step = random.randint(1, 5)
-    length = random.randint(5, 10)
-    hidden_index = random.randint(0, length - 1)
+    start = random.randint(1, 20)  # NOSONAR
+    step = random.randint(1, 5)  # NOSONAR
+    length = random.randint(5, 10)  # NOSONAR
+    hidden_index = random.randint(0, length - 1)  # NOSONAR
 
     progression = generate_progression(start, step, length)
     correct_answer = str(progression[hidden_index])

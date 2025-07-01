@@ -19,9 +19,9 @@ def generate_round():
         ("42 - 17", "25")
     """
     operators = ["+", "-", "*"]
-    num1 = random.randint(1, 100)
-    num2 = random.randint(1, 100)
-    op = random.choice(operators)
+    num1 = random.randint(1, 100)  # NOSONAR
+    num2 = random.randint(1, 100)  # NOSONAR
+    op = random.choice(operators)  # NOSONAR
 
     question = f"{num1} {op} {num2}"
     correct_answer = str(eval(question))

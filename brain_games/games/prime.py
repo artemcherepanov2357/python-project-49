@@ -13,6 +13,6 @@ def is_prime(number):
 
 
 def generate_round():
-    question = random.randint(2, 100)  # nosec - not security sensitive
+    question = random.randint(2, 100)  # NOSONAR
     correct_answer = "yes" if is_prime(question) else "no"
     return str(question), correct_answer
