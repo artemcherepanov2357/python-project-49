@@ -30,6 +30,8 @@ make install
 make build
 make package-install
 ```
+[asciicast](https://asciinema.org/a/6QtXs9wpz2eBzkZQ70DqtpHbt)
+
 ---
 
 ## 🚀 Available Games
@@ -44,3 +46,5 @@ After installation, the following CLI commands will be available:
 | `brain-gcd`         | Find the greatest common divisor (GCD)      |
 | `brain-progression` | Guess the missing number in a progression   |
 | `brain-prime`       | Determine if a number is prime              |
+
+[asciicast](https://asciinema.org/a/buxVjevJdWgFMaQ31zmsosI88)
