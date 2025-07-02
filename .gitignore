@@ -3,6 +3,7 @@
 __pycache__/
 *.py[cod]
 *_cache/
+.idea/
 
 # Logs and temporary files
 *.log
